@@ -1,0 +1,36 @@
+{
+  "name": "Refier",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^4.14.0",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "color": "^2.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "native-base": "^2.3.5",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^1.0.0-beta.22",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.0",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.12"
+  }
+}
